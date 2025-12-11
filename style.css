@@ -1,0 +1,185 @@
+﻿
+body{
+
+background-color: #1a1a1a;
+
+color: #fff;
+
+font-family:"Vazirmatn",sans-serif;
+margin:0;
+
+text-align:center;
+
+}
+
+
+
+header{
+ background-color: #4b1d1d;
+ padding: 20px;
+ border-bottom: 3px solid #fff;
+ }
+
+
+
+nav{
+ background-color: #701c1c;
+ padding: 10px;
+ text-align: center;
+ }
+
+
+nav a{
+ color: #fff;
+ text-decoration: none;
+ margin: 10px;
+ font-weight: bold;
+ }
+
+
+nav a:hover{
+ color: #ff3c3c;
+ }
+
+
+footer {
+ background-color: #4b1d1d;
+ padding: 15px;
+ border-top: 3px solid #fff;
+ margin-top: 20px;
+ font-size: 14px;
+ color: #ddd;
+ }
+
+
+
+
+.container{
+
+  overflow: hidden;
+
+  width: 90%;
+
+  margin: 20px auto;
+
+}
+
+
+
+.sidebar{
+
+  float: right;
+
+  width: 28%;
+
+  background-color: #333;
+
+  padding: 15px;
+
+  border-radius: 8px;
+
+  text-align: right;
+
+}
+
+
+
+.content{
+
+  float: left;
+
+  width: 68%;
+ 
+}
+
+
+
+.card{
+  
+   background-color: #4b1d1d;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  border: 2px solid #fff;
+
+}
+
+
+
+.card img{
+  width: 150px;
+ margin: 10px 0;
+ }
+
+
+
+.sidebar h3{
+ color: #ff3c3c;
+ }
+
+.sidebar h4{
+ color: #ff3c3c;
+ }
+
+
+.sidebar input[type="text"],.sidebar input[type="email"]{
+
+  width: 90%;
+ padding: 5px;
+ margin-bottom: 10px;
+
+  background-color: #444;
+ border: 1px solid #701c1c;
+ color: #fff; border-radius: 3px;
+
+}
+
+.submit-btn{
+
+  background-color: #ff3c3c;
+ color: white;
+ padding: 8px 15px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+
+}
+
+
+  
+
+
+@media (max-width: 768px) {
+ 
+ .sidebar,.content {
+
+    float: none; 
+   width: 95%;
+    }
+
+  
+
+.sidebar {
+
+    margin-bottom: 20px;
+    }
+  
+
+
+  nav a {
+
+    display: block;
+ 
+    padding: 8px 0;
+
+  }
+
+
+ .container {
+
+      width: 100%;
+  }
+
+}
